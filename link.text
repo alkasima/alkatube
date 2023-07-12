@@ -1,0 +1,30 @@
+API Key: f7141e8132a6dafc89945afaa95acec3
+Base URL: https://api.themoviedb.org/3
+
+Individual:
+https://api.themoviedb.org/3/movie/{movie_id}?language=en-US&api_key=f7141e8132a6dafc89945afaa95acec3
+
+Now Playing:
+ https://api.themoviedb.org/3/movie/now_playing?language=en-US&api_key=f7141e8132a6dafc89945afaa95acec3
+
+Popular:
+https://api.themoviedb.org/3/movie/popular?language=en-US&api_key=f7141e8132a6dafc89945afaa95acec3
+
+
+Top Rated:
+https://api.themoviedb.org/3/movie/top_rated?language=en-US&api_key=f7141e8132a6dafc89945afaa95acec3
+
+
+Upcoming:
+https://api.themoviedb.org/3/movie/upcoming?language=en-US&api_key=f7141e8132a6dafc89945afaa95acec3
+
+
+
+Search:
+
+https://api.themoviedb.org//3/search/movie?query={movie_name}&include_adult=false&language=en-US&api_key=f7141e8132a6dafc89945afaa95acec3
+
+List of Celebrities:
+https://api.themoviedb.org/3/person/popular?language=en-US&page=1&api_key=f7141e8132a6dafc89945afaa95acec3
+
+Details of Celebrity:
