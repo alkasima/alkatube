@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { CelebrityCard } from "../components/CelebrityCard";
 import { useFetchCelebrity } from "../hooks/useFetchCelebrity";
 import { usePageTitle } from "../hooks/usePageTitle";
-import { Button } from '../components';
+
 
 export const CelebrityList = ({title }) => {
   
   const { data: celebrities, loading } = useFetchCelebrity();
-  const titlePage = usePageTitle(`${title} / Alkatube`);
+  usePageTitle(`${title} / Alkatube`);
   const [visibleCelebrities, setVisibleCelebrities] = useState(9);
   const [showGoToTop, setShowGoToTop] = useState(false);
 

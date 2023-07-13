@@ -21,13 +21,13 @@ export const CelebrityDetails = () => {
       console.log(json);
     }
     fetchCelebrity();
-  }, []);
+  }, [params.id]);
 
   const handleShowMore = () => {
     setShowFullBiography(true);
   };
 
-  const titlePage = usePageTitle(`${celebrity.name} / Alkatube`);
+  usePageTitle(`${celebrity.name} / Alkatube`);
 
   return (
     <main>

@@ -7,7 +7,7 @@ export const Search = (apiPath) => {
   const [searchParams] = useSearchParams();
   const queryTerm = searchParams.get("q");
   const { data: movies } = useFetch('search/movie', queryTerm);
-  const titlePage = usePageTitle(`Search Result For ${queryTerm} / Alkatube`);
+ usePageTitle(`Search Result For ${queryTerm} / Alkatube`);
 
 
 

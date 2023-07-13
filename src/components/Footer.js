@@ -12,19 +12,19 @@ export const Footer = () => {
       <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           
           <li>
-              <a href="https://www.linkedin.com/in/kasim-abubakar-jajere-b6651021" target="_blank" className="dark:text-white mr-4 hover:underline md:mr-6">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/kasim-abubakar-jajere-b6651021" target="_blank" rel="noreferrer" className="dark:text-white mr-4 hover:underline md:mr-6">LinkedIn</a>
           </li>
           
           <li>
-              <a href="https://www.facebook.com/alkasima2" target="_blank" className="dark:text-white mr-4 hover:underline md:mr-6">Facebook</a>
+              <a href="https://www.facebook.com/alkasima2" target="_blank" rel="noreferrer" className="dark:text-white mr-4 hover:underline md:mr-6">Facebook</a>
           </li>
           <li>
-              <a href="https://www.instagram.com/realalkasima" target="_blank" className="dark:text-white mr-4 hover:underline md:mr-6 ">Instagram</a>
+              <a href="https://www.instagram.com/realalkasima" target="_blank" rel="noreferrer" className="dark:text-white mr-4 hover:underline md:mr-6 ">Instagram</a>
           </li>
           
           
           <li>
-              <a href="https://www.github.com/alkasima" target="_blank" className="dark:text-white hover:underline">Github</a>
+              <a href="https://www.github.com/alkasima" target="_blank" rel="noreferrer" className="dark:text-white hover:underline">Github</a>
           </li>
       </ul>
       </div>

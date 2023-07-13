@@ -21,10 +21,10 @@ export const MovieDetail = ({title}) => {
       console.log(json);
     }
     fetchMovie();
-  }, []);
+  }, [params.id]);
 
 
-  const titlePage = usePageTitle(`${movie.title} / Alkatube`);
+usePageTitle(`${movie.title} / Alkatube`);
 
 
   return (
