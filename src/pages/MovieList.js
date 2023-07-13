@@ -13,6 +13,7 @@ export const MovieList = ({ apiPath, title }) => {
     if (movies && movies.length > 0) {
       setVisibleMovies(Math.min(visibleMovies, movies.length));
     }
+    // eslint-disable-next-line
   }, [movies]);
 
   useEffect(() => {

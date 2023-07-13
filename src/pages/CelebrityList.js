@@ -15,6 +15,7 @@ export const CelebrityList = ({title }) => {
     if (celebrities && celebrities.length > 0) {
       setVisibleCelebrities(Math.min(visibleCelebrities, celebrities.length));
     }
+    // eslint-disable-next-line
   }, [celebrities]);
 
   useEffect(() => {
