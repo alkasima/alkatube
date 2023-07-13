@@ -33,7 +33,7 @@ export const CelebrityDetails = () => {
     <main>
       <section className="flex justify-around flex-wrap py-5">
         <div className="max-w-sm">
-          <img src={image} alt="Celebrity image" className="w-full" />
+          <img src={image} alt="Celebrity " className="w-full" />
         </div>
         <div className="max-w-2xl text-gray-700 text-lg dark:text-white">
           <h1 className="text-4xl font-bold my-3 text-center lg:text-left">

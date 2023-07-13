@@ -1,13 +1,11 @@
-import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Card } from "../components/Card";
 import { useFetch } from "../hooks/useFetch";
 import { usePageTitle } from "../hooks/usePageTitle";
-import { Button } from '../components';
 
 export const MovieList = ({ apiPath, title }) => {
   const { data: movies, loading } = useFetch(apiPath);
-  const titlePage = usePageTitle(`${title} / Alkatube`);
+  usePageTitle(`${title} / Alkatube`);
   const [visibleMovies, setVisibleMovies] = useState(6);
   const [showGoToTop, setShowGoToTop] = useState(false);
 
