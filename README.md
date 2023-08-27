@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Alkatube - Movie and Celebrity Information App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Alkatube is a powerful React application that integrates with the themovie.org API, offering users an immersive experience in exploring movie and celebrity data. The app boasts several key features, including:
 
-## Available Scripts
+- Top Rated, Popular, and Upcoming Pages: Alkatube provides easy access to the top-rated, popular, and upcoming movie lists, enabling users to stay up-to-date with the latest and most highly acclaimed films.
+- Celebrity Pages: Dive into the world of your favorite celebrities with dedicated pages that offer insights into their careers, accomplishments, and personal details.
+- Detailed Information: For each selected movie or celebrity, Alkatube delivers comprehensive details, giving users a deeper understanding of their favorite films or stars.
+- Dark Mode and Light Mode: Customize your viewing experience by seamlessly toggling between dark mode and light mode, ensuring optimal readability and comfort in any lighting condition.
+- Stunning Design with Tailwind CSS: Alkatube's aesthetics are powered by Tailwind CSS, providing an elegant and user-friendly interface that enhances the overall user experience.
 
+![Screenshot 2023-08-27 095406](https://github.com/alkasima/alkatube/assets/17447927/d5b6cc4d-e47c-43c9-9788-535ae93922f8)
+
+## To run the program
 In the project directory, you can run:
+
+
+### `npm install`
+
+
 
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Live hosted
+[https://alkatube.netlify.app/](https://alkatube.netlify.app/) 
